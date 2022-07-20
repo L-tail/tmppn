@@ -1,0 +1,49 @@
+#homelink{
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+}
+.container-fluid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 100%;
+    max-width: 430px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+h2{
+    margin-bottom: 20px;
+}
+#logform{
+    padding: 30px;
+    background-color: rgba(246,241,214,0.98);
+    border-radius: 10px;
+}
+#textarea1{
+    height: 230px;
+    resize:none;
+}
+.btn{
+    margin-top: 20px; 
+}
+body{
+    background-image: url(dandelion-g49ef4391c_1920.jpg);
+    color: rgba(182,213,106);
+}
+#saveButton{
+    width: 50%;
+    min-width: 100px;
+    max-width: 200px;
+}
+#nikkityoButton{
+    width: 50%;
+    min-width: 100px;
+    max-width: 200px;
+}
+#logout{
+    width: 50%;
+    min-width: 100px;
+    max-width: 200px;
+}
