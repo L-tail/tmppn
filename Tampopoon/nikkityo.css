@@ -1,0 +1,61 @@
+#homelink{
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+}
+.container-fluid{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 430px;
+    margin-top: 20px;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.searchForm{
+    padding: 20px;
+    background-color: rgba(246,241,214,0.98);
+    border-radius: 10px;
+}
+.day{
+    width: 40%;
+    min-width: 130px;
+    max-width: 200px;
+    margin: 10px;
+}
+#InputText{
+    width: 85%;
+    min-width: 180px;
+    max-width: 240px;
+    margin: 10px;
+}
+#search{
+    width: 100px;
+    height: 50%;
+    margin: 10px 0 0 10px;
+}
+body{
+    background-image: url(dandelion-g49ef4391c_1920.jpg);
+    color: rgba(182,213,106);
+}
+#form2{
+    overflow:auto;
+    max-height: 500px;
+}
+table{
+    word-wrap: break-word;
+    width: 100%;
+    table-layout: fixed;
+}
+table th,table td{
+    padding: 5px;
+    text-align: center;
+    overflow-x: auto;
+}
+table tr:nth-child(odd){
+    background-color: #74645C;
+}
+table tr:nth-child(even){
+    color: #74645C;
+}
