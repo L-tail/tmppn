@@ -13,7 +13,7 @@ if(isset($_COOKIE['token'])){
     $result = mysqli_query($link,$query);
     $row = mysqli_fetch_array($result);
     $_SESSION['email'] = $row['email'];
-    header("Location: nikkisession.php");
+    header("Location: nikkirecord.php");
     exit();
 }
 
@@ -47,7 +47,7 @@ if(isset($_COOKIE['token'])){
                         
                     
                 $_SESSION['email']=$_POST['email'];
-                header("Location: nikkisession.php");
+                header("Location: nikkirecord.php");
                 exit();
                 }
             }else{
